@@ -730,6 +730,20 @@ img{
 				}
 
 
+/* Next Event */
+
+#header .nextEventCallout {
+	font-style: italic;
+	font-size: 3em;
+}
+
+#header p.inline.nextEventDetails {
+	font-style: italic;
+	padding-left: .5em;
+	font-size: 2em;
+}
+
+
 /* Spin animation */
 
 .wrapper{
