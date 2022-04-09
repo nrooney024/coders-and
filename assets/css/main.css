@@ -775,6 +775,10 @@ img{
 		width: 100%;
 	}
 
+	footer a.icon.brands.fa-discord{
+		font-size: 3em;
+	}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
