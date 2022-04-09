@@ -32,8 +32,31 @@
 
                   <!-- EVENT SELECTED HEADER -->
 					<header id="header">
-						<h1>Coders and:</h1>
+						<h1>Coders and: <div class="eventText">Beer 🍺</div></h1>
 					</header>
+
+                    <!-- EVENTBRITE EMBED -->
+                    <div id="eventbrite-widget-container-318131278217"></div>
+
+                    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                    <script type="text/javascript">
+                        var exampleCallback = function() {
+                            console.log('Order complete!');
+                        };
+
+                        window.EBWidgets.createWidget({
+                            // Required
+                            widgetType: 'checkout',
+                            eventId: '318131278217',
+                            iframeContainerId: 'eventbrite-widget-container-318131278217',
+
+                            // Optional
+                            iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                        });
+                    </script>
+
 
 
 				<!-- Footer -->
