@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Coders and:</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Roboto&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/css/images/coders-and-logo.png" />
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+
+                <!-- EVENT TBD HEADER -->
+					<!-- <header id="header">
+						<h1>Coders and:</h1>
+						<p>Currently 🧠-🌩️-ing our next event... Follow us on <a href="https://discord.gg/wSu3GAb4AV">Discord</a> to find out when me make up our minds!<p>
+					</header> -->
+
+                  <!-- EVENT SELECTED HEADER -->
+					<header id="header">
+						<h1>Coders and: <div class="eventText">Beer 🍺</div></h1>
+					</header>
+
+                    <!-- EVENTBRITE EMBED -->
+                    <div id="eventbrite-widget-container-318131278217"></div>
+
+                    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                    <script type="text/javascript">
+                        var exampleCallback = function() {
+                            console.log('Order complete!');
+                        };
+
+                        window.EBWidgets.createWidget({
+                            // Required
+                            widgetType: 'checkout',
+                            eventId: '318131278217',
+                            iframeContainerId: 'eventbrite-widget-container-318131278217',
+
+                            // Optional
+                            iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                        });
+                    </script>
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<a href="https://discord.gg/wSu3GAb4AV" class="icon brands fa-discord"><span class="label">Discord</span></a>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>

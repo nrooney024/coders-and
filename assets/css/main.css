@@ -743,6 +743,10 @@ img{
 	font-size: 2em;
 }
 
+.eventText{
+	color: orange;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 /* Spin animation */
 
@@ -773,6 +777,11 @@ img{
 		position: absolute;
 		text-align: center;
 		width: 100%;
+	}
+
+	footer a.icon.brands.fa-discord{
+		font-size: 3em;
+		padding-bottom: .5em;
 	}
 
 /* Wide */
