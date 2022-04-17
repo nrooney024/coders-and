@@ -310,6 +310,12 @@ img{
 	
 }
 
+.container{
+	padding: 2em;
+	display: flex;
+	align-items: flex-start;
+}
+
 
 /* Overlay */
 
