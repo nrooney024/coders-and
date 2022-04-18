@@ -763,7 +763,9 @@ img{
 	font-weight: 900;
 }
 
-
+h1 > a{
+	border-bottom: none;
+}
 /* Spin animation */
 
 .wrapper{
