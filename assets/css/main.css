@@ -569,11 +569,11 @@ img{
 		top: -1em;
 		vertical-align: middle;
 		width: 80%;
-		height: 80%;
+		height: 60%;
 	}
 
 		#header h1 {
-			font-size: 4.35em;
+			font-size: 5em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
@@ -745,7 +745,7 @@ img{
 
 #header .nextEventCallout {
 	font-style: italic;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 #header p.inline.nextEventDetails {
@@ -1108,7 +1108,7 @@ h1 > a{
 	/* Header */
 
 		#header h1 {
-			font-size: 4em;
+			font-size: 4.5em;
 		}
 
 		#header p {
