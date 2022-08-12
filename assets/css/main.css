@@ -3,12 +3,12 @@ body{
 }
 
 nav{
-	/* background-color: gray !important;
+	background-color: gray !important;
 	border-radius: 5em;
 	margin-top: .75em;
 	display: flex !important;
 	justify-content: center !important;
-	max-width: 50em !important; */
+	max-width: 50em !important; 
 }
 
 li{
