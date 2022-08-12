@@ -3,18 +3,25 @@ body{
 }
 
 nav{
-	background-color: gray !important;
+	/* background-color: gray !important;
 	border-radius: 5em;
 	margin-top: .75em;
+	display: flex !important;
+	justify-content: center !important;
+	max-width: 50em !important; */
 }
 
+li{
+	/* margin: 0 1.25em !important; */
+}
 
 nav a:hover{
-	border-radius: 50%;
+	/* border-radius: 50%; */
 }
 
 h1{
-	font-size: 6em !important;
+	font-size: 10em !important;
+	margin-top: 1em !important;
 }
 
 img{
@@ -27,5 +34,5 @@ img{
 }
 
 .nav-icon{
-	width: 1.25em;
+	width: 1.5em;
 }

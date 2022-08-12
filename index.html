@@ -26,7 +26,8 @@
 
 	<body>
 		<div class="container">
-			<div class="row">
+
+			<!-- <div class="row">
 				<nav class="nav-wrapper col s12 z-depth-3">
 					<ul>
 						<li><a href="https://www.eventbrite.com/o/coders-and-45113387523"><img src="assets/css/images/favicon-194x194.png" alt="Eventbrite" class="nav-icon center-align"></a></li>
@@ -34,21 +35,44 @@
 						<li><a href="https://discord.gg/wSu3GAb4AV"><i class="fa-brands fa-discord center-align"></i></a></li>
 					</ul>
 				</nav>
-			</div>
-			
-			<!-- Header -->
-			<header class="center-align">
+			</div> -->
 
-				<h1 class="white-text">Coders and:</h1>
-				<img src="assets/css/images/Coffee (250 × 100 px).gif" alt="topic carousel">
-				
-				<div class="row">
-					<div class="col s12 description">
-						<span>A community of coders, who also enjoy doing other things too.</span>
-						<span>Sound like you? Join our Discord, meet the fam, and join us for our social events!</span>
-					</div>
+			<nav> <!-- navbar content here  --> </nav>
+
+			<ul id="slide-out" class="sidenav">
+				<li><div class="user-view">
+				<div class="background">
+					<img src="images/office.jpg">
 				</div>
-			</header>
+				<a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+				<a href="#name"><span class="white-text name">John Doe</span></a>
+				<a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+				</div></li>
+				<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+				<li><a href="#!">Second Link</a></li>
+				<li><div class="divider"></div></li>
+				<li><a class="subheader">Subheader</a></li>
+				<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+			</ul>
+			<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+					
+			  
+			<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+			<div id="main">
+				
+				<!-- Header -->
+				<header class="center-align">
+
+					<h1 class="white-text">Coders and:</h1>
+					<img src="assets/css/images/Coffee (250 × 100 px).gif" alt="topic carousel">
+					
+					<div class="row">
+						<div class="col s12 description">
+							<span>A community of coders, who also enjoy doing other things too.</span>
+							<span>Sound like you? Join our Discord, meet the fam, and join us for our social events!</span>
+						</div>
+					</div>
+				</header>
 				
 
 			
@@ -58,6 +82,7 @@
 					<a href="https://www.eventbrite.com/e/coders-and-a-biergarten-tickets-393737468367"><p class="inline nextEventDetails">Coders And: A Biergarten 🍺</p></a>
 				</section>
 					
+			</div>
 		</div>
 		<script>
 			window.onload = function() { document.body.classList.remove('is-preload'); }
@@ -65,5 +90,6 @@
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
 		<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
