@@ -36,6 +36,10 @@ ol, ul {
 	list-style: none;
 }
 
+iframe{
+	max-width: 100%;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -69,6 +73,28 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+img.logo-button,
+img.logo-button a,
+img.logo-button a:before,
+img.logo-button a:visited
+{
+	width: 6em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	border-bottom: transparent;
+	border-color: transparent;
+	text-decoration: none;
+}
+
+.underline-link-black-green-text{
+	border-bottom: dotted 1px black;
+	color: #074321 !important;
+}
+
+.underline-text{
+	text-decoration: underline;
 }
 
 /* Basic */
@@ -151,7 +177,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px gray;
+		/* border-bottom: dotted 1px gray; */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -187,7 +213,8 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 5em;
+		font-size: 6em;
+		margin-bottom: 0;
 	}
 
 		h1.major {
@@ -237,7 +264,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 3em;
 		}
 
 		h2 {
@@ -571,6 +598,8 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1680px) {
+
+			
 
 			.row {
 				display: flex;
@@ -1793,7 +1822,17 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 
+
+			img.discord{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				
+			}
+		
 		}
+
+		
 
 /* Box */
 
@@ -1915,7 +1954,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #074321 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2395,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #074321;
 		}
 
 		select:focus::-ms-value {
@@ -2525,7 +2564,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #074321;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2613,6 +2652,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
+	
+	
 /* List */
 
 	ol {
@@ -3005,11 +3046,13 @@ input, select, textarea {
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: cover;
+			background-size: contain;
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 50%;
+			background-repeat: no-repeat;
+			margin: 1em 0em;
 		}
 
 			.spotlights > section > .image img {
@@ -3022,7 +3065,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #074321;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3236,7 +3279,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #074321;
 		}
 
 		.wrapper.style1 {
@@ -3370,7 +3413,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #074321;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
