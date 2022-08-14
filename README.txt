@@ -37,3 +37,4 @@ Credits:
 - Coders And green:  #074321
 - Green gradient background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
 - Coders And Green gradient background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, #074321;
+- Deep green: #031209
